@@ -3,7 +3,7 @@ angular.module('app').component('expenseListDisplay', {
     expenses: '=expenseData',
     selectExpense: '&'
   },
-  templateUrl: '/expenses/expenseListDisplay.html',
+  templateUrl: './expenses/expenseListDisplay.html',
   controller: function() {
     this.deleteExpense = function(expense) {
       this.expenses.$remove(expense);

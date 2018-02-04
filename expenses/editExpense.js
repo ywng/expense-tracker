@@ -1,5 +1,5 @@
 angular.module('app').component('editExpense', {
-  templateUrl: '/expenses/editExpense.html',
+  templateUrl: './expenses/editExpense.html',
   bindings: {
     categories: '=',
     createNewExpense: '&',

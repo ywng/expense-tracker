@@ -1,5 +1,5 @@
 angular.module('app').component('editUserPref', {
-  templateUrl: '/userPreferences/editUserPref.html',
+  templateUrl: './userPreferences/editUserPref.html',
   bindings: {
     userPrefData: '=userPreferences'
   },
